@@ -1,0 +1,63 @@
+.details-container{
+    background-attachment: fixed;
+    background-color: rgb(229, 238, 238);
+    height: 100vh;
+    padding: 40px;
+}
+.education-details-card{
+    display: flex;
+    justify-content: space-between;
+}
+.header-card{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading{
+    font-family: Roboto;
+    font-size: 50px;
+    color: #000000;
+}
+.one{
+    font-size: 40px;
+}
+.side{
+    font-size: 35px;
+}
+.para{
+    font-size: 30px;
+}
+.ul-container{
+    list-style-type: none;
+}
+.item{
+    font-size: 30px;
+    margin-bottom: 3px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+.input{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.button-card{
+    text-align: center;
+}
+.submit{
+    background-color: rgb(15, 15, 241);
+    font-size: 30px;
+    color: aliceblue;
+    padding: 10px;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    border: none;
+    margin-top: 60px;
+}
+@media screen and (min-width:768px) {
+    .details-container{
+        background-attachment: fixed;
+        background-color: rgb(229, 238, 238);
+        height: 100%;
+        padding: 40px;
+    }
+}
